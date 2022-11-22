@@ -5,14 +5,16 @@
   overflow: auto;
 }
 
-btn, .btn-secondary, .btn-primary {
+btn, .btn-primary, .btn-secondary {
   display: inline-block;
   border-radius: 5px;
   padding: 8px 20px;
   margin: 3px;
 }
-btn:hover, .btn-secondary:hover, .btn-primary:hover {
-  transform: scale(0.8);
+
+btn:hover, .btn-primary:hover, .btn-secondary:hover {
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
 }
 
 .btn-primary {
@@ -33,7 +35,8 @@ btn:hover, .btn-secondary:hover, .btn-primary:hover {
 }
 
 * {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -57,34 +60,56 @@ a {
   color: white;
   height: 600px;
 }
+
 .hero nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
+
 .hero nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   list-style-type: none;
 }
+
 .hero nav li {
   padding: 15px;
 }
+
 .hero nav a {
   color: white;
 }
+
 .hero nav a:hover {
   color: #a2d0fc;
 }
+
 .hero-content {
   height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-top: 30px;
 }
+
 .hero-content img {
   width: 50%;
 }
+
 .hero-content h1 {
   font-size: 50px;
   line-height: 1.2;
@@ -169,5 +194,4 @@ a {
 .py-5 {
   padding: 5rem 0;
 }
-
 /*# sourceMappingURL=style.css.map */

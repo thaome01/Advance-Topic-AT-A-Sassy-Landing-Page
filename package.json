@@ -1,0 +1,20 @@
+{
+  "name": "advance-topic-at-a-sassy-landing-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thaome01/Advance-Topic-AT-A-Sassy-Landing-Page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thaome01/Advance-Topic-AT-A-Sassy-Landing-Page/issues"
+  },
+  "homepage": "https://github.com/thaome01/Advance-Topic-AT-A-Sassy-Landing-Page#readme"
+}
